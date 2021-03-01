@@ -1,6 +1,6 @@
 {
   "name": "ttmpl",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "Code generator with EJS templates",
   "author": "mirefly",
   "license": "MIT",
@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@types/ejs": "^3.0.5",
