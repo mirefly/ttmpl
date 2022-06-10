@@ -32,7 +32,7 @@
     "@types/fs-extra": "^9.0.7",
     "@types/minimist": "^1.2.1",
     "ejs": "^3.1.6",
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^10.0.0",
     "minimist": "^1.2.5"
   },
   "bin": {
